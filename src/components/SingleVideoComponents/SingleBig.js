@@ -25,7 +25,11 @@ const SingleBig = ({ video, id, channel }) => {
             <Avatar src={channelThumb} aria-label={channelTitle}></Avatar>
           }
           title={channelTitle}
-          subheader={`${abbreviateNumber(subscriber)} subscribers`}
+          subheader={`${
+            subscriber === undefined
+              ? "Subscription is private"
+              : abbreviateNumber(subscriber)
+          } subscribers`}
           style={{
             textAlign: "center",
             background: "#f1f1f1",
