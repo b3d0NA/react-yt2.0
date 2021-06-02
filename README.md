@@ -1,3 +1,18 @@
+# Youtube 2.0
+## Features
+1. User can search all of the youtube videos.
+2. User can view youtube videos from this site by the help of `iframe`
+3. User can see views, channel name, video title, video thumbnail which had given for the video.
+4. Totally SPA (Single Page Application)
+
+## JS Library used to project
+1. `React.js`
+2. `React Router Dom`
+3. `Material UI-Core`
+4. `Material UI-Icons`
+5. ~React Features~ `Context API`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
